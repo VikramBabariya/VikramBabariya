@@ -1,13 +1,13 @@
 <div align="center">
   <h1>Vikram Babariya</h1>
-  <p><b>Cloud & DevSecOps Engineer | Site Reliability Engineering (SRE)</b></p>
+  <p><b>DevOps Engineer | Cloud Engineering</b></p>
   <p>📍 Gujarat, IN | ☁️ AWS Certified Cloud Practitioner | 🌐 <a href="https://vikram-sre.dev">vikram-sre.dev</a> | 💼 <a href="https://linkedin.com/in/vikram-babariya">LinkedIn</a></p>
 </div>
 
 ---
 
 ## ⚙️ Operational Mandate
-Cloud & DevSecOps Engineer transitioning from a Python backend foundation to high-availability infrastructure. Specializes in architecting **zero-trust AWS serverless ecosystems**, enforcing **immutable CI/CD delivery pipelines**, and applying **Shift-Left SRE quality gates** to strictly reduce Total Cost of Ownership (TCO) and Mean Time To Recovery (MTTR).
+DevOps Engineer transitioning from a Python backend foundation to high-availability infrastructure. Specializes in architecting **zero-trust AWS serverless ecosystems**, enforcing **immutable CI/CD delivery pipelines**, and applying **Shift-Left SRE quality gates** to strictly reduce Total Cost of Ownership (TCO) and Mean Time To Recovery (MTTR).
 
 ## 🏗️ Architectural Competencies
 * **Cloud Infrastructure & Security:** AWS (IAM, S3, API Gateway, DynamoDB, Lambda), OIDC Identity Federation, Zero-Trust Network Segmentation.
