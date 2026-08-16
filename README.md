@@ -21,12 +21,12 @@ DevOps Engineer transitioning from a Python backend foundation to high-availabil
 * **Architecture:** Serverless AWS delivery pipeline enforcing blast radius containment via **OIDC identity federation**, completely deprecating vulnerable, long-lived IAM keys.
 * **Outcome:** Guaranteed flawless artifact hygiene and zero-downtime delivery utilizing idempotent S3 state synchronizations and automated CloudFront edge network invalidations.
 
-### 2. [Inventory System: Containerized Defense-in-Depth](https://github.com/VikramBabariya/inventory-system)
-* **Architecture:** Multi-tier Docker bridge networking enforcing zero-route database isolation, restricting PostgreSQL access to the backend tier via explicit network topology.
-* **Outcome:** Slashed production Docker artifacts by **90% (3.5 GB → 364 MB)** utilizing multi-stage builds and enforcing the Principle of Least Privilege (PoLP) across all container runtimes.
+### 2. [Inventory System: Containerized Defense-in-Depth → Kubernetes Migration](https://github.com/VikramBabariya/inventory-system)
+* **Architecture:** Multi-tier Docker bridge networking → full Kubernetes migration (11 manifests, dedicated namespace, ClusterIP/NodePort topology, PVC-backed PostgreSQL, ConfigMap schema injection). Zero plaintext credentials across all manifests via secretKeyRef. Validated locally on k3d, targeting k3s on OCI ARM64.
+* **Outcome:** Slashed production Docker artifacts by 90% (3.5 GB → 364 MB). Property-based manifest test suite (6 Hypothesis tests) enforces structural correctness shift-left — no live cluster required to gate correctness.
 
 ## 🔄 Current Architectural Sprint
-Actively architecting the AWS cloud deployment for the containerized Inventory System. Enforcing rigorous VPC subnetting logic (RFC 1918) and mapping explicit NAT Gateway routing paths to guarantee strict private database isolation prior to provisioning production compute.
+Completed local Kubernetes deployment of the Inventory System on k3d — 11 manifests, zero-plaintext credentials, property-based manifest validation. Next phase: provisioning OCI ARM64 VM (Always Free A1.Flex, 4 OCPUs / 24GB RAM), installing k3s, and deploying all four services to the live cluster. CI/CD pipeline for automated image build → GHCR push → kubectl apply is the subsequent gate.
 
 ---
 <div align="center">
