@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Vikram Babariya</h1>
   <p><b>DevOps Engineer | Cloud Engineering</b></p>
-  <p>📍 Raklot, IN | ☁️ AWS Certified Cloud Practitioner | 🌐 <a href="https://vikram-sre.dev">vikram-sre.dev</a> | 💼 <a href="https://linkedin.com/in/vikram-babariya">LinkedIn</a></p>
+  <p>📍 Rajkot, IN | ☁️ AWS Certified Cloud Practitioner | 🌐 <a href="https://vikram-sre.dev">vikram-sre.dev</a> | 💼 <a href="https://linkedin.com/in/vikram-babariya">LinkedIn</a></p>
 </div>
 
 ---
